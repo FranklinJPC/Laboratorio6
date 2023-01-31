@@ -1,0 +1,36 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;  /* Controla los valores rem como pixeles */
+}
+main{
+
+    
+    background-color: aqua;
+    /*width: 100%;  /* Recomendacion: usar valores relativos no absolutos */
+    /*height: 500px;*/
+    width: 100vw;
+    height: 100vh;
+    padding: 20px;
+}
+p{
+    font-size: 3rem;
+}
+main p{
+    font-size: 1.9rem;
+}
+
+section{
+    padding: 10px;
+    width: 80%;
+    /* Genera/estira un elemento hasta una cierto tamaño */
+    min-width: 300px;
+    max-width: 500px;
+    /* Ajuste del contenido */
+    min-height: 500px;
+    margin: 0 auto;
+    background-color: blue;
+}

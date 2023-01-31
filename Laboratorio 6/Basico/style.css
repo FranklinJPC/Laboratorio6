@@ -1,0 +1,12 @@
+*{
+    /* Resetear los atributos de la pagina */
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;  /* Evita el aumento de tamaño de los componentes, por medio de un recalculo */
+}
+main{
+    width: 100%; /*Use toda la pantalla*/
+    height: 500px;
+    border: 10px solid blue; /* Crea el borde con linea visible y color, sin comas */
+    padding: 20px 35px; /* 2: derecha izquierda, 3: derecha izquierda centro, 4: der,izq, arriba,abajo */
+}

@@ -1,0 +1,29 @@
+/*
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+*/
+body{
+    margin: 15px;
+}
+.block-element{
+    margin: 15px;
+    padding: 10px;
+    background-color: chocolate;
+}
+.nav{
+    background-color: darkseagreen;
+    padding: 20px;
+    list-style: none;
+    text-align: center;
+}
+/* Fusiona lo mejor de inline y block */
+.nav li{
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px 0;
+    padding-left: 20px ;
+    padding-right: 30px;
+}
